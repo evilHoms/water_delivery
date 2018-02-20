@@ -1,0 +1,6 @@
+[0218/154247.915:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Footper\settings.dat: Отказано в доступе. (0x5)
+[0218/154247.921:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0218/154247.923:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Footper\settings.dat: Отказано в доступе. (0x5)
+[0218/220358.905:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Footper\settings.dat: Отказано в доступе. (0x5)
+[0218/220358.910:ERROR:registration_protocol_win.cc(84)] TransactNamedPipe: Канал был закрыт. (0x6D)
+[0218/220358.913:ERROR:file_io_win.cc(179)] CreateFile C:\Program Files (x86)\Footper\settings.dat: Отказано в доступе. (0x5)
