@@ -16,3 +16,6 @@ function onDocumentScroll(e) {
     hiddenBg.classList.add('hidden');
   }
 }
+
+const anim = new SmoothAppearing(); 
+anim.runAnimationOnScroll();
