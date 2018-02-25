@@ -9,7 +9,7 @@ firstSection.style.marginTop = header.getBoundingClientRect().height + 'px';
 document.addEventListener('scroll', onDocumentScroll);
 
 function onDocumentScroll(e) {
-  if (window.scrollY > window.innerHeight) {
+  if ((window.scrollY || window.pageYOffset) > window.innerHeight) {
     hiddenBg.classList.remove('hidden');
   }
   else {

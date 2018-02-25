@@ -6,7 +6,7 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
 
   <meta name="description" content="ООО Водолей. Доставка воды по Анапе. Доставка и установка куллеров для воды и водяных помп. Вода в таре по 19л.">
-  <meta name="Keywords" content="Водолей, доставка воды, доставка воды анапа, вода доставка, вода доставка анапа, куллеры, куллеры доставка, куллеры доставка анапа, помпы, помпы доставка, помпы дсотавка анапа, вода, вода анапа, вода 19 литров, вода 19л, доставки и установка помп"> 
+  <meta name="Keywords" content="Водолей, доставка воды, доставка воды анапа, вода доставка, вода доставка анапа, куллеры, куллеры доставка, куллеры доставка анапа, помпы, помпы доставка, помпы дсотавка анапа, вода, вода анапа, вода 19 литров, вода 19л, доставки и установка помп, доставка воды +в анапе +на дом"> 
 
   <title>Доставка воды Анапа</title>
 
@@ -17,9 +17,49 @@
   <script src="./scripts/smoothAppearing.min.js" defer></script>
   <script src="./scripts/index.js" defer></script>
   
+  <!-- Global site tag (gtag.js) - Google Analytics -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=UA-114755569-1"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+
+    gtag('config', 'UA-114755569-1');
+  </script>
+
+
 </head>
 <body>
   
+  <!-- Yandex.Metrika counter -->
+  <script type="text/javascript" >
+    (function (d, w, c) {
+        (w[c] = w[c] || []).push(function() {
+            try {
+                w.yaCounter47825989 = new Ya.Metrika({
+                    id:47825989,
+                    clickmap:true,
+                    trackLinks:true,
+                    accurateTrackBounce:true
+                });
+            } catch(e) { }
+        });
+
+        var n = d.getElementsByTagName("script")[0],
+            s = d.createElement("script"),
+            f = function () { n.parentNode.insertBefore(s, n); };
+        s.type = "text/javascript";
+        s.async = true;
+        s.src = "https://mc.yandex.ru/metrika/watch.js";
+
+        if (w.opera == "[object Opera]") {
+            d.addEventListener("DOMContentLoaded", f, false);
+        } else { f(); }
+    })(document, window, "yandex_metrika_callbacks");
+  </script>
+  <noscript><div><img src="https://mc.yandex.ru/watch/47825989" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+  <!-- /Yandex.Metrika counter -->
+
   <header class="main-header">
     <div class="header-background"></div>
     <div class="content">
@@ -54,7 +94,7 @@
 
     </div>
   </header>
-
+  <h2 class="hidden">ООО Водолей</h2>
   
   <div class="hidden-fixed-bg hidden">
   </div>
@@ -129,6 +169,7 @@
     </div>
 
   </section>
+  <h2 class="hidden">Доставка воды Анапа</h2>
 
 
   <section class="cool-pomps">
@@ -150,6 +191,7 @@
       </div>
     </div>
   </section>
+  <h2 class="hidden">Водяные помпы куллеры доставка установка</h2>
 
 
   <section class="serts">
@@ -171,23 +213,25 @@
       </div>
     </div>
   </section>
-
   
   <section class="contacts">
-    <div class="content appears-hidden">
+    <div itemscope itemtype="http://schema.org/Organization" class="content appears-hidden">
       <h2 class="section-title">
         Наши контакты
       </h2>
       <div class="space-between-row">
+        <h3 class="hidden">
+          <span itemprop="name">ООО Водолей</span>
+        </h3>
         <div class="contacts__tel--wrapper">
           <h3 class="text-reg-18">
               <i class="fa fa-phone" aria-hidden="true"></i> Телефоны:
           </h3>
           <p class="text-reg-16">
-            +7 (918) 487 55 75
+            <span itemprop="telephone">+7 (918) 487 55 75</span>
           </p>
           <p class="text-reg-16">
-            +7 (929) 845-71-61
+            <span itemprop="telephone">+7 (929) 845-71-61</span>
           </p>
         </div>
         <div class="contacts__insta--wrapper">
@@ -206,7 +250,7 @@
           </h3>
           <p class="text-reg-16">
             <a href="mailto:dostavka_anapa@inbox.ru">
-              dostavka_anapa@inbox.ru
+              <span itemprop="email">dostavka_anapa@inbox.ru</span>
             </a>
           </p>
         </div>
@@ -214,6 +258,7 @@
     </div>
   </section>
 
+  
 
   <footer class="main-footer">
     <div class="content">
@@ -223,6 +268,8 @@
       </div>
     </div>
   </footer>
+
+  
 
 </body>
 </html>
